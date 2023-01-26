@@ -33,10 +33,10 @@
     },
     {
       "type": "link",
-      "url": "https://github.com/rodriguesabner/server-whatsapp",
-      "title": "Send Messages on Whatsapp using Node",
-      "description": "Your own WhatsApp automation server",
-      "emoji": "📱"
+      "url": "https://github.com/rodriguesabner/server-instagram",
+      "title": "Instagram Automation using Node",
+      "description": "Your own Instagram Multisession server",
+      "emoji": "🤳"
     },
     {
       "type": "divider",
