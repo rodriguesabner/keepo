@@ -22,7 +22,7 @@
   "content": [
     {
       "type": "divider",
-      "title": "Posts"
+      "title": "Automations"
     },
     {
       "type": "link",
@@ -30,6 +30,17 @@
       "title": "Send Messages on Whatsapp using Node",
       "description": "Your own WhatsApp automation server",
       "emoji": "📱"
+    },
+    {
+      "type": "link",
+      "url": "https://github.com/rodriguesabner/server-whatsapp",
+      "title": "Send Messages on Whatsapp using Node",
+      "description": "Your own WhatsApp automation server",
+      "emoji": "📱"
+    },
+    {
+      "type": "divider",
+      "title": "Posts"
     },
     {
       "type": "link",

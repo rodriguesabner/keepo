@@ -1,13 +1,13 @@
-# Liinks Personal
+# Keepo
 
-Liinks Personal é um 'clone' da aplicação **liinks.co**.
+Keepo é um 'clone' da aplicação **keepo.io**.
 
 ## Instalação
 
 ```bash
     git clone
-    https://github.com/rodriguesabner/liinks-personal
-    cd liinks-personal
+    https://github.com/rodriguesabner/keepo
+    cd keepo
     yarn install
 ```
 
@@ -39,7 +39,7 @@ Você pode as cores da aplicação de acordo com seu gosto:
 Tipos de conteúdo que você poode inserir:
 
 ```json   
-[ 'link', 'link-gallery', 'divider', 'video' ]
+[ 'link', 'divider', 'video' ]
 ```
 **tem exemplo de uso no arquivo**
 
@@ -65,8 +65,8 @@ Tipos de conteúdo que você poode inserir:
 
 Original
 
-![image](https://user-images.githubusercontent.com/40338524/207221830-bfb39fcf-a313-49a4-a813-69b74536f458.png)
+![image](https://user-images.githubusercontent.com/40338524/214736169-d12894dd-e58a-493f-bd23-4f352dcb0afb.png)
 
 Clone
 
-![image](https://user-images.githubusercontent.com/40338524/207211112-70377690-d7a9-4ba2-b5eb-43a7d957d603.png)
+![image](https://user-images.githubusercontent.com/40338524/214736111-f41d76ab-f11c-4e94-b210-c8914f61bc0e.png)
