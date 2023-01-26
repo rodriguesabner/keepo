@@ -9,13 +9,19 @@ const Social = (): JSX.Element => {
 
   useEffect(() => {
     const arr = []
-    for (const elem of settings.social_info) {
+    const socialContent = settings.content.filter((c) => c.type === 'social').map((c) => c.items).flat()
+    for (const elem of socialContent) {
       arr.push({
         ...elem,
-        icon: <FormatIcon name={elem.name.toLowerCase()} />
+        icon: <FormatIcon
+            // @ts-expect-error
+            name={elem.name.toLowerCase()}
+            color={settings.app.card_text_color}
+        />
       })
     }
 
+    // @ts-expect-error
     setConfig(arr)
   }, [])
 

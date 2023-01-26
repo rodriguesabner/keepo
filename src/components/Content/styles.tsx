@@ -1,11 +1,10 @@
 import styled from 'styled-components'
 
 export const ContentWrapper = styled.ul`
-  padding: 20px;
+  padding: 2em;
   list-style-type: none;
-  margin-top: 1.5em;
   
   li {
-    margin-bottom: 1.5em;
+    margin-bottom: 16px;
   }
 `

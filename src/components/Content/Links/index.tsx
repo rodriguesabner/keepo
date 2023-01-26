@@ -1,5 +1,5 @@
 import React from 'react'
-import { Description, Layout, Title } from './styles'
+import { Emoji, Layout, Title } from './styles'
 import { ContentProps } from '../../../interfaces/Content'
 
 const Links = ({ item }: { item: ContentProps }): JSX.Element => {
@@ -9,9 +9,10 @@ const Links = ({ item }: { item: ContentProps }): JSX.Element => {
                 <Title>
                     {item.title}
                 </Title>
-                <Description>
-                    {item.description}
-                </Description>
+
+                <Emoji>
+                    {(item.emoji != null || item.emoji !== '') && item.emoji}
+                </Emoji>
             </a>
         </Layout>
   )

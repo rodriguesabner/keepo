@@ -5,7 +5,7 @@ import { ContentProps } from '../../interfaces/Content'
 import { ContentWrapper } from './styles'
 import Divider from './Divider'
 import Video from './Video'
-import Gallery from './Gallery'
+import Social from '../Social'
 
 const Content = (): JSX.Element => {
   const [items, setItems] = useState<ContentProps[]>([])
@@ -35,12 +35,12 @@ const Content = (): JSX.Element => {
     switch (content.type) {
       case 'link':
         return <Links item={content} />
-      case 'link-gallery':
-        return content.linkGalleryItems != null ? <Gallery items={content.linkGalleryItems} /> : undefined
       case 'video':
         return <Video item={content} />
       case 'divider':
         return <Divider item={content} />
+      case 'social':
+        return <Social />
       default:
         return undefined
     }

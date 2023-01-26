@@ -9,28 +9,22 @@ export default createGlobalStyle`
     -webkit-tap-highlight-color: transparent;
     -webkit-font-smoothing: antialiased;
   }
-  
+
   html, body, #root, .App {
     width: 100%;
     height: 100%;
     background-color: ${settings.app.background_color};
   }
-  
+
   .App {
     position: relative;
-    
-    @media(min-width: 768px) {
-      max-width: 500px;
-      margin: 0 auto;
-      border: 2px solid ${settings.app.card_color};
-      overflow: auto;
-    }
   }
-  
+
   body {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: ${settings.app.text_color};
     position: relative;
+    line-height: 1;
   }
 
   a {
@@ -49,14 +43,19 @@ export default createGlobalStyle`
     width: 7px;
     height: 7px;
   }
+
   ::-webkit-scrollbar-track {
-    background: #070807;
+    background: ${settings.app.background_color};
   }
+
   ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: ${settings.app.background_color};
+    
     border-radius: 4px;
   }
+
   ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: ${settings.app.background_color};
+    
   }
 `

@@ -20,28 +20,28 @@ import {
   SiJira
 } from 'react-icons/si'
 
-const FormatIcon = ({ name }: { name: string }): JSX.Element => {
+const FormatIcon = ({ name, color }: { name: string, color: string }): JSX.Element => {
   const sizeIcon = 20
 
   const renderIcon = (): JSX.Element | undefined => ({
-    github: <SiGithub size={sizeIcon}/>,
-    email: <SiGmail size={sizeIcon}/>,
-    youtube: <SiYoutube size={sizeIcon}/>,
-    onlyFans: <SiOnlyfans size={sizeIcon}/>,
-    twitter: <SiTwitter size={sizeIcon}/>,
-    twitch: <SiTwitch size={sizeIcon}/>,
-    '500px': <Si500Px size={sizeIcon}/>,
-    instagram: <SiInstagram size={sizeIcon}/>,
-    linkedin: <SiLinkedin size={sizeIcon}/>,
-    facebook: <SiFacebook size={sizeIcon}/>,
-    whatsapp: <SiWhatsapp size={sizeIcon}/>,
-    discord: <SiDiscord size={sizeIcon}/>,
-    spotify: <SiSpotify size={sizeIcon}/>,
-    figma: <SiFigma size={sizeIcon}/>,
-    clubhouse: <SiClubhouse size={sizeIcon}/>,
-    npm: <SiNpm size={sizeIcon}/>,
-    site: <SiInternetexplorer size={sizeIcon}/>,
-    jira: <SiJira size={sizeIcon}/>
+    github: <SiGithub size={sizeIcon} color={color}/>,
+    email: <SiGmail size={sizeIcon} color={color}/>,
+    youtube: <SiYoutube size={sizeIcon} color={color}/>,
+    onlyFans: <SiOnlyfans size={sizeIcon} color={color}/>,
+    twitter: <SiTwitter size={sizeIcon} color={color}/>,
+    twitch: <SiTwitch size={sizeIcon} color={color}/>,
+    '500px': <Si500Px size={sizeIcon} color={color}/>,
+    instagram: <SiInstagram size={sizeIcon} color={color}/>,
+    linkedin: <SiLinkedin size={sizeIcon} color={color}/>,
+    facebook: <SiFacebook size={sizeIcon} color={color}/>,
+    whatsapp: <SiWhatsapp size={sizeIcon} color={color}/>,
+    discord: <SiDiscord size={sizeIcon} color={color}/>,
+    spotify: <SiSpotify size={sizeIcon} color={color}/>,
+    figma: <SiFigma size={sizeIcon} color={color}/>,
+    clubhouse: <SiClubhouse size={sizeIcon} color={color}/>,
+    npm: <SiNpm size={sizeIcon} color={color}/>,
+    site: <SiInternetexplorer size={sizeIcon} color={color}/>,
+    jira: <SiJira size={sizeIcon} color={color}/>
   })[name]
 
   return (
