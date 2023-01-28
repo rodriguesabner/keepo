@@ -14,6 +14,9 @@ export default createGlobalStyle`
     width: 100%;
     height: 100%;
     background-color: ${settings.app.background_color};
+    
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
   }
 
   .App {
